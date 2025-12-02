@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: oklch(58.5% 0.233 277.117);
+    --color-dark: oklch(12.9% 0.042 264.695);
+
+    --container-padding: 16px;
+    --breakpoint-2xl: 1320px
+}
