@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +15,7 @@
         <div class="flex items-center justify-between relative">
           <div class="px-4">
             <a href="#home" class="font-bold text-lg text-primary block py-6"
-              >FajriAuliaRahman</a
+              >FAR</a
             >
           </div>
           <div class="flex items-center px-4 lg:hidden">
@@ -38,10 +38,11 @@
           </div>
           <nav
             id="nav-menu"
-            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full 
-            lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:ml-10 lg:space-x-8 lg:py-6"
+            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:ml-10 lg:space-x-8 lg:py-6"
           >
-            <ul class="block lg:flex lg:justify-end lg:items-center w-full space-x-4 ">
+            <ul
+              class="block lg:flex lg:justify-end lg:items-center w-full space-x-4"
+            >
               <li class="group">
                 <a
                   href="#home"
@@ -58,14 +59,14 @@
               </li>
               <li class="group">
                 <a
-                  href="#about"
+                  href="#project"
                   class="text-lg font-semibold text-dark py-2 mx-8 flex group-hover:text-primary"
                   >Project</a
                 >
               </li>
               <li class="group">
                 <a
-                  href="#about"
+                  href="#contact"
                   class="text-lg font-semibold text-dark py-2 mx-8 flex group-hover:text-primary"
                   >Contact</a
                 >
@@ -76,6 +77,7 @@
       </div>
     </header>
     <!-- navbar end-->
+
     <!-- hero section -->
     <section id="home" class="pt-36">
       <div class="container mx-auto">
@@ -101,7 +103,7 @@
             </p>
 
             <a
-              href="#"
+              href="https://wa.me/012345"
               class="rounded-full text-white bg-primary py-2 px-6 hover:opacity-80 transition-300 ease-in-out"
               >Contact Me</a
             >
@@ -135,6 +137,7 @@
       </div>
     </section>
     <!-- hero section end -->
+
     <!-- about section  -->
     <section id="about" class="py-16 bg-white">
       <div
@@ -348,6 +351,91 @@
       </div>
     </section>
     <!-- about section  end-->
+
+    <!-- project section -->
+    <section id="project" class="pt-28 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-medium text-primary mt-1 mb-2 text-4xl lg:text-5xl">
+              Project
+            </h2>
+            <p class="font-medium text-md text-slate-500">
+              Here are some of my recent projects that showcase my skills in
+              full-stack development
+            </p>
+          </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center">
+          <div
+            class="mb-12 px-4 md:w-1/2 group cursor-pointer rounded-xl shadow-xl border-2 border-slate-300 hover:border-cyan-400"
+          >
+            <div class="rounded-md overflow-hidden">
+              <img
+                src="./assets/BIRU-removebg.png"
+                alt="project1"
+                class="max-w-sm mx-auto max-h-64 transition duration-300 group-hover:scale-110 ease-in-out"
+              />
+            </div>
+            <h3
+              class="font-semibold text-xl text-dark mt-5 mb-3 group-hover:text-primary"
+            >
+              project1
+            </h3>
+            <p class="font-medium text-base text-slate-500">
+              icing elit. Commodi quas delectus corporis.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="bg-cyan-100 text-cyan-700 px-3 py-1 text-sm font-base border-none rounded-xl mt-2 mb-2"
+                >HTML</span
+              >
+              <span
+                class="bg-cyan-100 text-cyan-700 px-3 py-1 text-sm font-base border-none rounded-xl mt-2 mb-2"
+                >Tailwind CSS</span
+              >
+            </div>
+            <div class="flex gap-3 pt-2">
+              <a
+                class="inline-flex items-center gap-1.5 border-2 bg-white px-7 py-1 text-dark border-slate-500 hover:border-cyan-600 hover:bg-cyan-50 rounded-2xl mb-2"
+                href="#"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-github-icon lucide-github"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                  />
+                  <path d="M9 18c-4.51 2-5-2-7-2" />
+                </svg>
+                <span class="text-lg font-medium font-sans"> Code </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project section end -->
+
+    <!-- contact section -->
+    <section id="contact">
+
+    </section>
+    <!-- contact section end-->
+
+    <!-- footer -->
+    <footer>
+    </footer>
+    <!-- footer end -->
     <script src="assets/js/script.js"></script>
   </body>
 </html>
