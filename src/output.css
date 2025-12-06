@@ -350,6 +350,12 @@
   .h-1 {
     height: calc(var(--spacing) * 1);
   }
+  .h-2 {
+    height: calc(var(--spacing) * 2);
+  }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
   .max-h-64 {
     max-height: calc(var(--spacing) * 64);
   }
